@@ -9,7 +9,7 @@ class PatientHealth:
         elif self.age > 100:
             return "Age is too old for health score calculation"
         else:
-            score = self.bmi / (self.age / 10)  # High McCabe complexity
+            score = self.bmi / (self.age / 10) 
 
     def medical_history(self):
         long_variable_name = 'Patient has been diagnosed with a condition that requires a lengthy treatment plan, exceeding the maximum allowed line length in health record standards'  # Very long line length
